@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/nightImage"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:scaleType="centerCrop"/>
+
+        <!--<ImageView-->
+        <!--android:id="@+id/country_photo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:contentDescription="@string/app_name"-->
+        <!--android:scaleType="centerCrop" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/country_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="8dp"-->
+        <!--android:text="@string/app_name" />-->
+
+        <TextView
+            android:id="@+id/nightName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NightName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignLeft="@+id/nightAddress"
+            android:layout_alignStart="@+id/nightAddress"
+            />
+
+        <TextView
+            android:id="@+id/nightAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nightName"
+            android:text="Night Address"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignLeft="@+id/nightPhone"
+            android:layout_alignStart="@+id/nightPhone"
+            />
+
+        <TextView
+            android:id="@+id/nightPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nightAddress"
+            android:text="Night Phone"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/nightImage"
+            />
+
+        <!--<RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            style="?android:attr/ratingBarStyleSmall"
+            android:id="@+id/ratingBar"
+            android:numStars="5"
+            android:rating="5"
+            android:isIndicator="true"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:layout_below="@id/hotelAddress"
+            android:layout_toRightOf="@id/hotelImage"
+            android:layout_centerInParent="true" />-->
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="See in Map"
+            android:id="@+id/nightMap"
+            android:textColor="#100000"
+            android:background="#569538"
+
+            android:gravity="center"
+            android:layout_below="@id/nightPhone"
+            style="@style/Base.Widget.AppCompat.Button.Small"
+            android:singleLine="false"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/nightImage"
+
+            />
+
+        <!--<Button
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="viewdeal"
+            android:id="@+id/hotel_deal"
+            android:background="#4d0694"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Small"
+            android:singleLine="false"
+            android:layout_below="@id/hotel_book"
+            android:textColor="#ffffff"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            />-->
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

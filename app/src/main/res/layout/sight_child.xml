@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_margin="2dp"
+
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="2dp"
+    card_view:contentPaddingTop="5dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="#000f44"
+    android:clickable="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kathmandu_icon"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="5dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/sight_child_image"
+            android:scaleType="centerCrop"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp">
+        <TextView
+            android:id="@+id/sight_child_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sight_child_image"
+            android:text = "Pashupatinath Temple"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#f56555"
+
+            android:paddingBottom="2dp"
+            />
+
+        <TextView
+            android:id="@+id/sight_child_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sight_child_tilte"
+            android:text = "Pashupati nath marg"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/sight_child_image"
+            android:textColor="#ffffff"
+
+            />
+    </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:paddingTop="2dp"
+
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_below="@+id/sight_child_address"
+            android:layout_toRightOf="@+id/sight_child_image"
+            android:layout_toEndOf="@+id/sight_child_image"
+
+            android:text="Opening Time:"
+            android:id="@+id/sight_child_opening"
+
+            android:textColor="#e7ebef"
+                      />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daily,6 AM- 7AM"
+                android:textColor="#e7ebef"
+                android:paddingLeft="3dp"
+                android:textSize="13sp"
+
+                android:id="@+id/sight_child_openingTime"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_below="@+id/sight_child_address"
+            android:layout_toRightOf="@+id/sight_child_image"
+            android:layout_toEndOf="@+id/sight_child_image"
+
+            android:text="Entrance Fee:"
+            android:id="@+id/sight_child_entrance"
+
+            android:textColor="#e7ebef"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not Available"
+            android:textColor="#e7ebef"
+            android:paddingLeft="3dp"
+            android:textSize="13sp"
+
+            android:id="@+id/sight_child_entranceFee"/>
+
+
+    </LinearLayout>
+    <Button
+
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:id="@+id/sight_map_button"
+        android:text="See in Map"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+
+        />
+                </LinearLayout>
+</LinearLayout>
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+
+

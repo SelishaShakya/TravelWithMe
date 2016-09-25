@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49002052920",
+    "firebase_url": "https://travelwithme-1470549565959.firebaseio.com",
+    "project_id": "travelwithme-1470549565959",
+    "storage_bucket": "travelwithme-1470549565959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49002052920:android:6ce9f27cd9232ef2",
+        "android_client_info": {
+          "package_name": "com.majorproject.ckaa.travelwithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49002052920-oq5dkeh7h57mftvhfpmnpggq8ikka7n2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.majorproject.ckaa.travelwithme",
+            "certificate_hash": "8C839A476990A4EEB205A45827198DF7AB99FF5B"
+          }
+        },
+        {
+          "client_id": "49002052920-l23duekuualbq7g078bnlormr9rb0qs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4WR4sI_3RSPVTtw7En78EVpd0_kFE710"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49002052920-l23duekuualbq7g078bnlormr9rb0qs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

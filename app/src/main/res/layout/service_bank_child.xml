@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="#E5E4E2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/serviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Name"
+            android:textColor="#cd5c5c"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/serviceAddress1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Address"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+
+            android:layout_marginTop="5dp"
+           />
+
+
+
+        <TextView
+            android:id="@+id/serviceInfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Info"
+            android:textColor="#424242"
+            android:textSize="12sp"
+
+            android:layout_alignBottom="@+id/serviceAddress1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/serviceAddress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Address"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/serviceAddress1"/>
+
+
+
+            <TextView
+                android:id="@+id/serviceInfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Info"
+                android:textColor="#424242"
+                android:textSize="12sp"
+
+
+                android:layout_above="@+id/serviceAddress3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <TextView
+                android:id="@+id/serviceAddress3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Address"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/serviceAddress2"/>
+
+
+
+            <TextView
+                android:id="@+id/serviceInfo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Info"
+                android:textColor="#424242"
+                android:textSize="12sp"
+
+
+                android:layout_alignTop="@+id/serviceAddress3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

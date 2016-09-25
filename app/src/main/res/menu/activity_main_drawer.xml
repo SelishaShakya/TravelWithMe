@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_traveltip"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Travel Tip" />
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Hotel" />
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Attraction" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Food and Drink" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Services"/>
+        <item
+            android:id="@+id/nav_check"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Make List" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Map" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

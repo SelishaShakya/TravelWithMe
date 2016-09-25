@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.majorproject.ckaa.travelwithme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.minorproject.ckaa.androidgmaps.permission.MAPS_RECEIVE" />
+
+    <application
+        android:name=".userLogin.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/travelwithme"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".userLogin.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".userLogin.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAiN8Pi6hfBFz7CCYuOFXQMtY-hqoF5QLA" />
+
+        <activity android:name=".userLogin.Welcome" />
+        <activity
+            android:name=".HotelOnlineActivity"
+            android:label="Hotels"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+            />
+        </activity>
+
+        <activity
+            android:name=".City_Activity"
+            android:label="Cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="Map"></activity>
+        <activity
+            android:name=".mapsecondActivity"
+            android:label="Map" />
+        <activity
+            android:name=".AmusementActivity"
+            android:label="Amusements"
+            android:parentActivityName=".AttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.AttractionActivity" />
+        </activity>
+        <activity
+            android:name=".NightLifeActivity"
+            android:label="NightLife"
+            android:parentActivityName=".AttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.AttractionActivity" />
+        </activity>
+        <activity
+            android:name=".ShoppingActivity"
+            android:label="Shopping"
+            android:parentActivityName=".AttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.AttractionActivity" />
+        </activity>
+        <activity
+            android:name=".Inside_sightseeingActivity"
+            android:label="Sightseeing"
+            android:parentActivityName=".AttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.AttractionActivity" />
+        </activity>
+        <activity
+            android:name=".RestaurantActivity"
+            android:label="Restaurants"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AttractionActivity"
+            android:label="Attraction"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HikingActivity"
+            android:label="Hiking"
+            android:parentActivityName=".AttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.AttractionActivity" />
+        </activity>
+        <activity
+            android:name=".MemoActivity"
+            android:label="Make List"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Adapter_Activity"
+            android:label="Cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+
+            <uses-feature
+                android:glEsVersion="0x00020000"
+                android:required="true" />
+        </activity>
+        <activity
+            android:name=".phrasebook.PhrasebookActivity"
+            android:label="Phrasebook"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".popularActivity"
+            android:label="Miniguide"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PopularContentActivity"
+            android:label="Miniguide"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdventureActivity"
+            android:label="Adventures"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdventureContentActivity"
+            android:label="Adventures"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".HotelStaticActivity"
+            android:label="Hotels"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HotelActivity"
+            android:label="Hotels"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity
+            android:name=".services.ServiceActivity"
+            android:label="Services"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity android:name=".CurrencyConverterActivity"
+            android:label="Currency Converter"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity android:name=".eventUpdate.EventActivity"
+            android:label="Event Updates"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+        </activity>
+        <activity android:name=".eventUpdate.EventContentActivity"
+        android:label="Event Updates"
+        android:parentActivityName=".MainActivity"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.majorproject.ckaa.travelwithme.MainActivity" />
+    </activity>
+
+    </application>
+
+</manifest>

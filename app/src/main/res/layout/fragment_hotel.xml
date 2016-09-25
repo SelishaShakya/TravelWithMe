@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/button_material_light">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/book_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Book Now"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:background="@color/btn_logut_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="book"
+            />
+
+        <View
+            android:layout_height="8dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hyatt_regency"
+                android:id="@+id/img_htl1"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hyatt Regency"
+                    android:id="@+id/htl1"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl1"
+                    android:id="@+id/htladd1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Taragaon, Kathmandu"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar1"
+                    android:numStars="5"
+                    android:rating="5"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:focusable="false"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd1"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk1"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11"
+                android:onClick="viewdeal"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/soaltee_crown_plaza"
+                android:id="@+id/img_htl2"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+               android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Soaltee Crown Plaza"
+                    android:id="@+id/htl2"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl2"
+                    android:id="@+id/htladd2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tahachal, Kathmandu"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar2"
+                    android:numStars="5"
+                    android:rating="5"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd2"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk2"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotel_annapurna"
+                android:id="@+id/img_htl3"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel de l' \n Annapurna"
+                    android:id="@+id/htl3"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl3"
+                    android:id="@+id/htladd3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Durbarmarg, Kathmandu"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar3"
+                    android:numStars="5"
+                    android:rating="5"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd3"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk3"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fulbari_resort"
+                android:id="@+id/img_htl4"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Fulbari"
+                    android:id="@+id/htl4"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl4"
+                    android:id="@+id/htladd4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Green Canyon, Pokhara"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar4"
+                    android:numStars="5"
+                    android:rating="5"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd4"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk4"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gokarna_forest_resort"
+                android:id="@+id/img_htl5"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gokarna Forest Resort"
+                    android:id="@+id/htl5"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl5"
+                    android:id="@+id/htladd5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thali, Kathmandu"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar5"
+                    android:numStars="4"
+                    android:rating="4"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd5"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk5"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotel_mystic_buddha"
+                android:id="@+id/img_htl6"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Mystic Buddha"
+                    android:id="@+id/htl6"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl6"
+                    android:id="@+id/htladd6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Swoyambhu, Kathmandu"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar6"
+                    android:numStars="4"
+                    android:rating="4"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd6"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk6"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jungle_adventure_world_hotel"
+                android:id="@+id/img_htl7"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jungle Adventure World Hotel"
+                    android:id="@+id/htl7"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl7"
+                    android:id="@+id/htladd7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sauraha, Chitwan"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar7"
+                    android:numStars="4"
+                    android:rating="4"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd7"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk7"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radission_hotel"
+                android:id="@+id/img_htl8"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Radission Hotel"
+                    android:id="@+id/htl8"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl8"
+                    android:id="@+id/htladd8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lazimpat, Kathmandu"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar8"
+                    android:numStars="4"
+                    android:rating="4"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd8"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk8"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotel_goodwill"
+                android:id="@+id/img_htl9"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Goodwill"
+                    android:id="@+id/htl9"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl9"
+                    android:id="@+id/htladd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kanibahal, Lalitpur"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar9"
+                    android:numStars="3"
+                    android:rating="3"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd9"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk9"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jungle_sunset_camp"
+                android:id="@+id/img_htl10"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jungle Sunset Camp"
+                    android:id="@+id/htl10"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl10"
+                    android:id="@+id/htladd10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sauraha, Chitwan"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar10"
+                    android:numStars="3"
+                    android:rating="3"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd10"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk10"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotel_peace_palace"
+                android:id="@+id/img_htl11"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Peace Palace"
+                    android:id="@+id/htl11"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl11"
+                    android:id="@+id/htladd11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vishnupur Road, Lumbini"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar11"
+                    android:numStars="3"
+                    android:rating="3"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd11"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk11"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/himalayan_guest_house"
+                android:id="@+id/img_htl12"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Himalayan Guest House"
+                    android:id="@+id/htl12"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl12"
+                    android:id="@+id/htladd12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bhaktapur Durbar Square"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar12"
+                    android:numStars="2"
+                    android:rating="2"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd12"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk12"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/view_point_hotel"
+                android:id="@+id/img_htl13"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Point Hotel"
+                    android:id="@+id/htl13"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl13"
+                    android:id="@+id/htladd13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lakeside, Pokhara"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar13"
+                    android:numStars="2"
+                    android:rating="2"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/htladd13"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewdeal"
+                android:id="@+id/hbk13"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N/A"
+                android:id="@+id/img_htl14"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Mustang Gate"
+                    android:id="@+id/htl14"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl14"
+                    android:id="@+id/htladd14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tsaile, Mustang"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+            </RelativeLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/moreinfo"
+                android:id="@+id/hbk14"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+
+        </TableRow>
+        <View
+            android:layout_height="5dp"
+            android:background="@color/button_material_light"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="Hotel1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N/A"
+                android:id="@+id/img_htl15"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Himali Hotel and Lodge"
+                    android:id="@+id/htl15"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_below="@id/htl15"
+                    android:id="@+id/htladd15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Samar, Mustang"
+                    android:textAlignment="center"
+                    android:textColor="@color/abc_secondary_text_material_light" />
+
+            </RelativeLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/moreinfo"
+                android:id="@+id/hbk15"
+                android:background="@drawable/side_nav_bar"
+                android:layout_gravity="center"
+                android:gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Small"
+                android:singleLine="false"
+                android:width="@dimen/abc_text_size_button_material"
+                android:layout_column="11" />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+  </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Travel With Me</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="viewdeal">View Deals</string>
+    <string name="moreinfo">More Info</string>
+    <string name="spinner2_title">Select Types Of Room</string>
+    <string-array name="typesRoom_array">
+        <item>Single Room</item>
+        <item>Delux</item>
+        <item>Premium</item>
+        <item>Suite</item>
+    </string-array>
+
+    <string name="currency_prompt">Choose currency</string>
+
+    <string-array name="currency_arrays">
+        <item>US Dollar (107.54)</item>
+        <item>European Euro (121.42)</item>
+        <item>UK Pound Sterling (142.31)</item>
+        <item>Japanese Yen (10.71)</item>
+        <item>Indian Rupees (1.60)</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_trvltp1">Entry Requirement</string>
+    <string name="title_trvltp2">Air/Road conncetions to Nepal</string>
+    <string name="title_trvltp3">Accomodation </string>
+    <string name="title_trvltp4">Communication</string>
+    <string name="title_trvltp5">Permits and fees</string>
+    <string name="title_trvltp6">Health guide</string>
+    <string name="title_trvltp7">Cultural etiquette"</string>
+    <string name="EntryRequirement">
+
+
+        Visa can be obtained on arrival at the Tribhuvan International Airport, Kathmandu, at border
+        entry pointsin Kakadvitta, Birgunj, Bhairahawa, Nepalgunj, Gaddachowkion Nepal-India border and Kodari on Nepal-China border.
+        Visa can also be obtained at the nearest Nepal Embassy or Diplomatic Mission. Visa can also be obtained (renewal purposes) at
+        Department of Immigration, Kalikasthan, Kathmandu.A valid passport and one passport -size photo with a light background is
+        required. Immigration Department has not specified the size of the passport-size photo.Visa can be obtained only through
+        payment of cash in the following currency:Euro, Swiss Franc, Pound Sterling, US Dollar, Australian Dollar, Canadian Dollar,
+        Hong Kong Dollar, Singapore Dollar and Japanese Yen.Credit card, Indian currency and Nepali currency are not accepted as
+        payment of visa fee.
+    </string>
+<string name="Permits">
+       <h><b>Heritage Sites/ Museums / Zoo</b></h><p>
+          Entrance fees must be paid before touring heritage sites around Kathmandu Valley like Bhaktapur Durbar Square, Patan Durbar Square,
+        Kathmandu Durbar Square, Bauddhanath, Swayambhunath and Changu Narayan Temple.Entrance fees must be paid before touring
+        Lumbini Gardens, the sanctuary of the Mayadevi Temple, the birthplace of Lord Buddha, in Lumbini, Rupandehi.Entrance fees
+        must be paid before touring the Central Zoo in Jawalakhel, Lalitpur, and museums in Kathmandu Valley. Entrance fees must also
+        be paid before touring local museums in different parts of Nepal.</p>
+    </string>
+     <string name="Accomodation"><p>Nepal has every category of accommodation facilities that range from international standard star hotels to budget hotels and lodges. To ensure quality service, it is advisable to use the facilities and services of Government registered hotels, lodges and homestays. Most hotels offer a choice: bed and breakfast; bed, breakfast and one other meal; or room and full board. During spring and fall,
+    hotels work at near full capacity and are booked well in advance.Therefore, it would be a good idea to check well in advance and book hotels as per need if traveling to Nepal in the
+    peak season. Moderate accommodation facilities are also available in some parts of Kathmandu like Thamel. In such cases,
+    room rates may not include toilets and showers, unless otherwise indicated. Toilets and showers in such cases are generally
+    communal and heating may require additional charges. Such small hostelries are preferred by budget tourists and FITs.
+    Accommodation facilities are available in the mountain tourist areas. While trekking to some areas tenting may be the only
+    alternative if resident villages are scanty and long way off trekking routes. However, most trekking routes have lodges or
+    tea houses to accommodate tourists. Still to be on the safer side, we recommend that tourists look up on such information
+    before embarking on their journey.</p></string>
+
+     <string name="Connection"><b>Air Connection</b>\n
+    Nepal Airlines is the national flag carrier of Nepal with flights to/ from Delhi, Kuala Lumpur, Dubai, Bangkok, Doha and Hong Kong.
+         Other International airlines operating from and to Kathmandu are Air Arabia (Sharjah), Air Asia (Kuala Lumpur), Air China
+         (Lhasa, Chengdu), Biman Bangladesh (Dhaka), China Eastern Airlines (Kunming), China Southern Airlines (Guangzhou), Dragon
+         Air (Hong Kong), Druk Air (Delhi, Paro), Etihad Airways (Abu Dhabi), Flydubai (Dubai), GMG Airlines (Dhaka), Indian Airlines
+         (Delhi, Kolkata, Varanasi), Indigo Airlines (Delhi), Jet Airways (Delhi, Mumbai), Jet Lite (Delhi), Korean Air (Seoul),
+         Malaysian Airlines (Kuala Lumpur), Pakistan International Airlines (Karachi, Islamabad), Qatar Airways (Doha), RAK Air
+         (Ras al- Khaimah), Silk Air (Singapore), Spicejet (Delhi), Thai Airways (Bangkok)and United Airways (Dhaka).\n \n
+         <b>Traveling by Road</b>\n All visitors entering Nepal by land must use these designated entry points and may not enter
+         from any other point:\n(1) Kakkarvitta\n(2) Birgunj\n(3) Belhiya, Bhairahawa\n(4) Nepalgunj \n(5) Dhangadi and \n(6)
+         Mahendranagar in the Nepal-India border and \n(7) Kodari in the Nepal-China border. </string>
+    <string name="title_activity_permits_activity">Permits and fees</string>
+    <string name="Cultural_Etiquette">Some tips on the common etiquettes practiced by Nepali people should be useful to visitors.\n
+        1.	The form of greeting in Nepal is “Namaste” performing by joining both palms together. It literally means “the divine in me
+        salutes the divine in you”.\n 2.	As a mark of respect Nepalis usually take their shoes off before entering someone’s house or
+        place of worship.\n 3.	Food or material that has been touched by another person’s mouth is considered impure or “jutho” and,
+        therefore, is not accepted unless among close friends or family.\n 4.	Touching something with feet or using the left hand
+        to give or take may not be considered auspicious.\n 5.	Women wearing skimpy outfits are frowned upon especially in the rural
+        parts of the country.\n 6.	As a part of the tradition some Hindu temples do not allow non Hindus to enter.\n 7.	Leather
+        articles are prohibited inside some temple areas.\n 8.	Walking around temples or stupas is traditionally done clockwise.\n
+        9.	To avoid conflict photography is carried out after receiving permission from the object or person.\n 10.	Public
+        displays of affection are considered scandalous.\n</string>
+    <string name="Health_guide"><p>No specific vaccinations are needed to enter Nepal, but visitors should ensure they are vaccinated
+        against hepatitis A and B, typhoid fever, rabies and Japanese encephalitis. Meningitis A/C shows up frequently during the
+        winter months. If you are travelling through the Terai region, malaria is a concern during the monsoon season. Be careful to
+        avoid getting bitten by mosquitoes at dawn and dusk. Wear long pants, socks and shoes and sleep under a mosquito net whenever
+        possible.The most common illness suffered by travellers to Nepal is a stomach ache due to consuming contaminated food or water. Never drink water or ice if you aren’t sure it has been purified. Bottled water is available everywhere. Many visitors choose to avoid eating dairy products or unpeeled fruit. Meat is fine as long as it’s been thoroughly cooked. Washing your hands often is another good precaution while travelling around Nepal.</p></string>
+    <string name="title_activity_accomodation">Accomodation</string>
+    <string name="title_activity_connection">Air Connection</string>
+    <string name="title_activity_cultural_ettiquete">Cultural Ettiquete</string>
+    <string name="title_activity_communication">Communication</string>
+    <string name="title_activity_health_guide">HealthGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
